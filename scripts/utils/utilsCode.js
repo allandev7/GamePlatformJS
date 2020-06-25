@@ -13,4 +13,15 @@ class UtilsCode {
     }
     return matriz;
   }
+  
+  static inimigoPresent(inimigos){
+    let retorno = false;
+    inimigos.forEach(inimigo=>{
+      if(inimigo.x> -inimigo.largura && inimigo.x < width){
+        retorno = true;
+      }
+    });
+    return retorno;
+  }
+
 }
