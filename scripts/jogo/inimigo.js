@@ -3,7 +3,7 @@ class Inimigo extends Animacao{
                velocidade, delay){
     super(matriz, imagem, x, variacaoY, largura, altura, larguraSprite, alturaSprite);
      
-     this.velocidade = velocidade;
+     this.velocidade = random(10,30);
      this.delay = delay;
      this.x = width + this.delay;
   }

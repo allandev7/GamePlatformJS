@@ -1,7 +1,28 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
+
 canvas {
   display: block;
+}
+
+
+.botao-tela-inicial {
+  width: 30%;
+  height: 5%;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Impact';
+  font-weight: 700;
+  background-color: #f8f8f8;
+  border-width:0;
+
+}
+
+.botao-tela-inicial:hover {
+  background-color: #9b111e;
+  color:#fff;
+
 }
