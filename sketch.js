@@ -5,6 +5,7 @@ function keyPressed() {
 }
 
 function setup() {
+  musica.loop();
   createCanvas(windowWidth, windowHeight);
   jogo = new Jogo();
   jogo.setup();

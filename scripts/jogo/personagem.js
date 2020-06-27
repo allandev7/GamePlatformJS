@@ -7,6 +7,7 @@ class Personagem extends Animacao {
     this.gravidade = 5;
     this.velocidadePulo = 0;
     this.contPula = 0;
+    this.invencivel = false;
   }
 
   pula() {
@@ -26,7 +27,17 @@ class Personagem extends Animacao {
     }
   }
 
+  tornarInvencivel() {
+    this.invencivel = true
+    setTimeout(() => {
+      this.invencivel = false
+    }, 1000);
+  }
+
   estaColidindo(inimigo) {
+    if (this.invencivel) {
+      return false
+    }
     const precisao = 0.7;
     return collideRectRect(
       this.x,

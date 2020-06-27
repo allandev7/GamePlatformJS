@@ -1,6 +1,8 @@
 let bruxa, cenario, musica, imgGotinha,
   imgCenario, imgTroll, imgGotinhaVoadora, imgGameOver, imgTelaInicial,
   fontTelaInicial, pontuacao, personagem;
+let imgVida;
+let vida;
 let jogo;
 let botaoGerenciador;
 let telaInicial;

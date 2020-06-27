@@ -6,6 +6,7 @@ function preload() {
   imgGotinhaVoadora = loadImage('imagens/inimigos/gotinha-voadora.png');
   imgTroll = loadImage('imagens/inimigos/troll.png');
   imgGameOver = loadImage('imagens/assets/game-over.png');
+  imgVida = loadImage('imagens/assets/coracao.png');
   
   
   musica = loadSound('sons/trilha_jogo.mp3');

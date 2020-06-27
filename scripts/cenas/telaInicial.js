@@ -17,9 +17,9 @@ class TelaInicial{
     textFont(fontTelaInicial);
     textSize(50);
     textAlign(CENTER);
-    text('As aventuras de ', width/2, height/2 - 300);
+    text('As aventuras de ', width/2, height/2 -125);
     textSize(100);
-    text('Bruxa', width/2, height/2 - 225);
+    text('Bruxa', width/2, height/2 - 50);
   }
   
   _botao(){
